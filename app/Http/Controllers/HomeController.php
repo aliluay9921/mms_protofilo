@@ -45,4 +45,10 @@ class HomeController extends Controller
 
         // dd($article);
     }
+
+    public function AllArticles()
+    {
+        $articles = Article::paginate(3);
+        return view("allArticles", compact('articles'));
+    }
 }

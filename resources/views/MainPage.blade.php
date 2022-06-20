@@ -25,9 +25,9 @@
         <a href="#" class="logo">M <span style="color: #601cfc;">M</span> S</a>
         <nav class="navigation">
 
-            <a href="#projects">كتاباتي</a>
+            <a href="#testimonial">كتاباتي</a>
             <a href="#services">مهاراتي</a>
-            <a href="#projects">نبذة مختضرة</a>
+            <a href="#about">نبذة مختضرة</a>
         </nav>
     </header>
     <section class="main">
@@ -43,7 +43,6 @@
             </div>
         </div>
     </section>
-
 
 
     <section id="about">
@@ -65,11 +64,7 @@
         </div>
     </section>
 
-
-
-
-
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 session-title">
@@ -141,43 +136,6 @@
         </div>
     </div>
 
-
-
-    <!-- <div class="cards">
-        <h2 class="title">Services</h2>
-
-        <div class="content" id="services">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-edit"></i>
-                </div>
-                <div class="info">
-                    <h3>WRITER</h3>
-                    <p>writing the content to make people is better than to life better and lovely self</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-camera"></i>
-                </div>
-                <div class="info">
-                    <h3>photo grapher</h3>
-                    <p>writing the content to make people is better than to life better and lovely self</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-clapperboard"></i>
-                </div>
-                <div class="info">
-                    <h3>DIRECTOR</h3>
-                    <p>writing the content to make people is better than to life better and lovely self</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
     <section id="testimonial">
         <div class="title-text">
             <h2 class="title">كتاباتي</h2>
@@ -223,6 +181,38 @@
         </div>
 
     </section>
+
+
+    <footer id="footer">
+        <div class="container">
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- footer logo -->
+                    <div class="footer-logo">
+                        <a href="#"><img src="/public/img/photo_2022-06-16_13-45-39.jpg" alt="scanfcode"></a>
+                    </div>
+                    <!-- /footer logo -->
+                    <!-- footer follow -->
+                    <ul class="footer-follow">
+                        <li> <a href="#instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li> <a href="#faceBook"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li> <a href="#tiktok"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li> <a href="#twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                    <!-- /footer follow -->
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                        <p>Copyright © 2022. All Rights Reserved. <a href="http://scanfcode.com/"
+                                target="_blank">Scanfcode</a></p>
+                    </div>
+                    <!-- /footer copyright -->
+                </div>
+            </div>
+            <!-- /Row -->
+        </div>
+        <!-- /Container -->
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">

@@ -67,7 +67,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('img/photo_2022-06-16_13-45-39.jpg') no-repeat;
+    background: url('img/IMG_0576.PNG') no-repeat;
     background-size: cover;
     /* background-position: center; */
     background-position: top;
@@ -216,8 +216,8 @@ section {
     cursor: pointer;
     transition: transform 0.5s;
     background-color: #fff;
-    max-height: 450px;
-    min-height: 450px;
+    max-height: 500px;
+    min-height: 500px;
 
 }
 
@@ -711,4 +711,66 @@ p.ss-pp {
     width: 400px;
     margin: auto;
     max-width: 100%;
+}
+
+
+
+#footer {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #1C1D21
+}
+
+#footer a {
+    color: #6195FF;
+    text-decoration: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+#footer a:hover, #footer a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #6195FF;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+
+.footer-follow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-follow li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-follow li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #6195FF;
+    color: #FFF;
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #868F9B;
 }
