@@ -115,6 +115,8 @@ section {
 
 .main-btn:hover {
     background-color: #601cfc;
+    text-decoration: none;
+    color: #fff;
     transform: scale(1.1);
 }
 
@@ -717,60 +719,64 @@ p.ss-pp {
 
 #footer {
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #1C1D21
+    width: 100%;
+    background-color: #1C1D21;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-#footer a {
-    color: #6195FF;
-    text-decoration: none;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
+#footer .social_icon, .menu_footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
 }
 
-#footer a:hover, #footer a:focus {
-    text-decoration: none;
-    outline: none;
-    opacity: 0.8;
-    color: #6195FF;
+#footer .social_icon li, .menu_footer li {
+    list-style: none;
 }
 
-.footer-logo {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.footer-logo>a>img {
-    max-height: 80px;
-}
-
-.footer-follow {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.footer-follow li {
+#footer .social_icon li a {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
     display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 13px;
+    transition: 0.5s;
 }
 
-.footer-follow li a {
+#footer .social_icon li a:hover {
+    transform: translateY(-10px);
+}
+
+.menu_footer li a {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 3px;
-    background-color: #6195FF;
-    color: #FFF;
+    text-decoration: none;
+    opacity: 0.75;
 }
 
-.footer-copyright p {
+.menu_footer li a:hover {
+    opacity: 1;
+
+}
+
+#footer p {
+    color: #fff;
     text-align: center;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin: 0;
-    color: #868F9B;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#footer p a {
+    color: #fff;
 }

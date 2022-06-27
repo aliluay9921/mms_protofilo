@@ -41,7 +41,7 @@ class HomeController extends Controller
     {
 
         $articles = Article::take(3)->get();
-        return view('mainPage', compact('articles'));
+        return view('MainPage', compact('articles'));
 
         // dd($article);
     }

@@ -22,7 +22,7 @@
 
 <body>
     <header class="menu">
-        <a href="#" class="logo">M <span style="color: #601cfc;">M</span> S</a>
+        <a href="#" style="text-decoration: none" class="logo">M <span style="color: #601cfc;">M</span> S</a>
         <nav class="navigation">
 
             <a href="#testimonial">كتاباتي</a>
@@ -36,10 +36,10 @@
             <h3>صانع محتوى توعوي هادف</h3>
             <a href="#projects" class="main-btn">لمشاهدة كتاباتي</a>
             <div class="social-icons">
-                <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#faceBook"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#tiktok"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mohammed.munerr/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/mohammeddirector"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://vt.tiktok.com/ZSdcr7hmW/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://twitter.com/mms_muneer"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </div>
     </section>
@@ -184,34 +184,17 @@
 
 
     <footer id="footer">
-        <div class="container">
-            <!-- Row -->
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- footer logo -->
-                    <div class="footer-logo">
-                        <a href="#"><img src="/public/img/photo_2022-06-16_13-45-39.jpg" alt="scanfcode"></a>
-                    </div>
-                    <!-- /footer logo -->
-                    <!-- footer follow -->
-                    <ul class="footer-follow">
-                        <li> <a href="#instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li> <a href="#faceBook"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li> <a href="#tiktok"><i class="fa-brands fa-tiktok"></i></a></li>
-                        <li> <a href="#twitter"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                    <!-- /footer follow -->
-                    <!-- footer copyright -->
-                    <div class="footer-copyright">
-                        <p>Copyright © 2022. All Rights Reserved. <a href="http://scanfcode.com/"
-                                target="_blank">Scanfcode</a></p>
-                    </div>
-                    <!-- /footer copyright -->
-                </div>
-            </div>
-            <!-- /Row -->
-        </div>
-        <!-- /Container -->
+        <p>للتواصل مع المبرمج علي لؤي </p>
+        <p><a href="tel:+9647713982401"><b>+9647713982401</b></a></p>
+        <ul class="social_icon">
+            <li> <a href="https://www.instagram.com/aliluay.dev/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li> <a href="https://www.facebook.com/aliluaydev/"><i class="fa-brands fa-facebook"></i></a></li>
+            <li> <a href="https://twitter.com/Aliluy5"><i class="fa-brands fa-twitter"></i></a></li>
+            <li> <a href="mailto:luaya577@gmail.com"> <i class="fa-solid fa-envelope"></i>
+                </a></li>
+        </ul>
+
+        <p> ©2022 Copyright | Ali luay Khalaf </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
